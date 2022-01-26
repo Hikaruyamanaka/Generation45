@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		
+		float a, b, c, d, r, s, pot1, pot2;
+		
+		Scanner leia = new Scanner(System.in);
+		
+		
+		
+	}
+
+}
+
+
+math.pow 
