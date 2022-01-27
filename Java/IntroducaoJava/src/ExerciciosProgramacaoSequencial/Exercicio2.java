@@ -1,3 +1,6 @@
+package ExerciciosProgramacaoSequencial;
+
+
 import java.util.Scanner;
 
 public class Exercicio2 {
