@@ -2,7 +2,7 @@
   
   
   
- Crie uma classe cliente e apresente 
+1 - Crie uma classe cliente e apresente 
 os atributos e métodos referentes
 esta classe, em seguida crie um objeto
  cliente, defina as instancias deste
@@ -37,7 +37,7 @@ public class Exer1_Cl {
 	
 	public void escrever()
 	{
-			if(this.add == add) 
+			if(this.add == true) 
 			
 				System.out.println("Informação adicionada");
 		

@@ -2,7 +2,7 @@
  
  
  
- Crie uma classe avião e apresente os atributos e
+2 - Crie uma classe avião e apresente os atributos e
 métodos referentes esta classe, em seguida crie
 um objeto avião, defina as instancias deste objeto
  e apresente as informações deste objeto no console.
@@ -33,7 +33,7 @@ public class Exer2_Avi {
 
 	public void escrever()
 	{
-		if(this.parado == parado)
+		if(this.parado == true)
 			System.out.println("Impossibilitado de voar ");
 	
 		else
