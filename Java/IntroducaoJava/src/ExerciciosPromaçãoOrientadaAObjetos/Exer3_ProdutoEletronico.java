@@ -20,7 +20,6 @@ public class Exer3_ProdutoEletronico
 		System.out.println("\nDigite a cor: ");
 		y = leia.next();
 		
-				
 		System.out.println("\n");
 		
 		Exer3_ProdElet celular1 = new Exer3_ProdElet(x, y);
@@ -30,9 +29,9 @@ public class Exer3_ProdutoEletronico
 		celular1.modelo = "Galaxy s21";
 		celular1.tamanho = 6.2f;
 		celular1.off();
-		celular1.escrever();
 		celular1.status();
-	
+		
+		leia.close();
 	}
 
 }
