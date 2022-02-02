@@ -20,14 +20,18 @@ public class Animais
 
 	private String Nome;
 	private int idade;
-	private boolean som;
+	// private boolean som;
+	
+	public void emitirSom()
+	{
+		System.out.println("Qualquer som...");
+	}
 	
 	void aniversario()
 	{
 		this.idade++;
 	}
 
-	
 	public String getNome() 
 	{
 		return Nome;
@@ -38,14 +42,14 @@ public class Animais
 		Nome = nome;
 	}
 
-	public boolean isSom() {
-		return som;
-	}
+	// public boolean isSom() {
+		//return som;
+	//}
 
 
-	public void setSom(boolean som) {
-		this.som = som;
-	}
+	// public void setSom(boolean som) {
+		//this.som = som;
+	//}
 
 
 	public int getIdade() 

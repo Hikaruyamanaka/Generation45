@@ -11,5 +11,12 @@ public class PreguicaAnim extends Animais
 	public void setAcao(String acao) {
 		this.acao = acao;
 	}
+	
+	@Override
+	
+	public void emitirSom()
+	{
+		System.out.println("aaaaaaaaaahhhhhh (sleep)...");
+	}
 
 }

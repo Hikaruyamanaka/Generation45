@@ -12,4 +12,11 @@ public class CachorroAnim extends Animais
 		this.acao = acao;
 	}
 	
+	@Override
+		
+	public void emitirSom()
+	{
+		System.out.println("Uaaaaauu auauuaua...");
+	}
+	
 }
