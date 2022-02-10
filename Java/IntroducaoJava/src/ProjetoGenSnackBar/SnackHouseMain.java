@@ -20,6 +20,7 @@ public class SnackHouseMain
 		double somaTotal = 0.0;		
 		String escolhaL , escolhaB , escolhaS;	
 		
+		
 		// Criando nossa tabela de produtos
 		Lanches l1 = new Lanches(1,"X-Burger",25.00);
 		Lanches l2 = new Lanches(2,"X-Salada",26.00);
@@ -102,43 +103,42 @@ public class SnackHouseMain
 					
 					switch(escolhaL) 
 					{
+								case "1":
+								{	
+									//Tentativa de usar set
+									//pedido.add(setNome());
+									
+									pedido.add(p1);
+									contXb++;
+									break;
+								}
+									
+								case "2":
+								{
+									pedido.add(p2);
+									contXs++;
+									break;
+								}
 								
-									case "1":
-									{	
-										//Tentativa de usar set
-										//pedido.add(setNome());
-										
-										pedido.add(p1);
-										contXb++;
-										break;
-									}
-									
-									case "2":
-									{
-										pedido.add(p2);
-										contXs++;
-										break;
-									}
-									
-									case "3":
-									{
-										pedido.add(p3);
-										contXBa++;
-										break;
-									}
-									
-									case "4":
-									{
-										pedido.add(p4);
-										contXv++;
-										break;
-									}
-									
-									default:
-									{
-										System.out.println("Não computou sua escolha");
+								case "3":
+								{
+									pedido.add(p3);
+									contXBa++;
+									break;
+								}
 								
-									}
+								case "4":
+								{
+									pedido.add(p4);
+									contXv++;
+									break;
+								}
+									
+								default:
+								{
+									System.out.println("Não computou sua escolha");
+							
+								}
 					
 					}
 							
@@ -187,8 +187,8 @@ public class SnackHouseMain
 					System.out.println(s1+""+s2);
 						escolhaS=leia.next();
 							
-						switch(escolhaS) 
-						{
+					switch(escolhaS) 
+					{
 									case "1":
 									{
 										pedido.add(p8);
@@ -209,7 +209,7 @@ public class SnackHouseMain
 											
 									}
 									
-						}
+					}
 						
 						
 					//Fazer mais um pedido?		
@@ -218,7 +218,8 @@ public class SnackHouseMain
 					System.out.println("1 - SIM | 2 - NÃO ");
 					escolhaP=leia.nextInt();
 						
-				}
+			}
+			
 					while(escolhaP!=2);
 		
 			
@@ -236,6 +237,7 @@ public class SnackHouseMain
 					System.out.println("O valor total do pedido foi de R$ "+somaTotal);
 					
 					leia.close();
+	
 	}
 	
 }
