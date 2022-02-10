@@ -20,12 +20,13 @@ public class Exercicio1 {
 		dias = leia.nextInt();
 		
 	
-	idade = anos * 365 + meses * 30 + dias;
+		idade = anos * 365 + meses * 30 + dias;
 		
 		System.out.println("Sua idade em dias é: "+ idade);
 			 
 		leia.close();
 		
 	}
+	
 }
 	

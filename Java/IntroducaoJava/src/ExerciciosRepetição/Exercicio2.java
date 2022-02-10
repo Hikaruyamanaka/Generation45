@@ -35,16 +35,14 @@ public class Exercicio2 {
 				impar++;
 			
 			}
+			
 			leia.close();
+		
 		}
 		
 		System.out.println("Quantidade de números pares : "+par);
 		System.out.println("Quantidade de números impares: "+impar);
-	
-		
 		
 	}
 	
-	
-
 }

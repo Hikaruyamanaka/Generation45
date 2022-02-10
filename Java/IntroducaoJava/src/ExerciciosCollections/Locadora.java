@@ -1,7 +1,6 @@
 package ExerciciosCollections;
 
 import java.util.ArrayList;
-import java.util.Collections;
 
 public class Locadora 
 {
@@ -10,7 +9,6 @@ public class Locadora
 		Loja2 filme1 = new Loja2("Naruto", 20);
 		Loja2 filme2 = new Loja2("One Piece", 20);
 		Loja2 filme3 = new Loja2("Fairy Tail", 120);
-	
 	
 		ArrayList<Loja2> filmes = new ArrayList<>();
 		
