@@ -1,4 +1,4 @@
-package ProjetoGenSnackHouse;
+package ProjetoGenSnackBar;
 
 public class Sobremesas implements Produtos {
 
@@ -51,7 +51,7 @@ public class Sobremesas implements Produtos {
 
 	@Override
 	public void linhaDetalhe() {
-		System.out.println("═══════════════════════════════════════════════════════");
+		System.out.println("\t\t\t\t\t");
 
 	}
 

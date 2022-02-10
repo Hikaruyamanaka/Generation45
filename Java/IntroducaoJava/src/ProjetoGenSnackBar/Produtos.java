@@ -1,4 +1,4 @@
-package ProjetoGenSnackHouse;
+package ProjetoGenSnackBar;
 
 //import java.util.List;
 

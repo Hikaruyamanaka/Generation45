@@ -1,4 +1,4 @@
-package ProjetoGenSnackHouse;
+package ProjetoGenSnackBar;
 
 public class Lanches implements Produtos {
 
@@ -43,7 +43,7 @@ public class Lanches implements Produtos {
 	}
 	@Override
 	public void linhaDetalhe() {
-		System.out.println("═══════════════════════════════════════════════════════");
+		System.out.println("\t\t\t\t\t");
 		
 	}
 
