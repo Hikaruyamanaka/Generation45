@@ -62,7 +62,7 @@ select *from tb_personagens ;
 select a.id, b.id_personagens
 FROM tb_classe as a
 INNER JOIN tb_personagens as b
-                on a.id = b.id_personagens;
+on a.id = b.id_personagens;
 
 drop table tb_personagens;
 drop table classe;
